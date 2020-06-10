@@ -1,3 +1,7 @@
+<?php
+
+// This is not an executable PHP file: it is purely for viewing purposes with the aesthetics which come with syntax highlighting.
+
 [+] Title:   Small-CMS 1.0 - SQL injection/Authentication Bypass
 [+] Date:    02/10/2012
 [+] Author:  Phizo (Joshua Coleman)
@@ -55,3 +59,5 @@ if ($login->checkCredentials($_POST['username'], $_POST['password'])){
         $error = '';  
         }
 } 
+
+?>
